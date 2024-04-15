@@ -1,0 +1,8 @@
+
+‡	java:S112%"FDefine and throw a dedicated exception instead of using a generic one.(°‡ÎK8í°Ôç1J$67690abe-902d-420d-81da-979fc31df48f
+Œ
+java:S2259"DA "NullPointerException" could be thrown; "coupon" is nullable here.(ÚÚæşÿÿÿÿ8ú°Ôç1J$4f0a0ebb-2b62-47d3-81d9-3df6d5c4b69e
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8û°Ôç1J$6b12baed-2391-4b9b-8ef2-77acfa77c79d
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8û°Ôç1J$985761f3-2752-4368-aa45-804dc38ca5de

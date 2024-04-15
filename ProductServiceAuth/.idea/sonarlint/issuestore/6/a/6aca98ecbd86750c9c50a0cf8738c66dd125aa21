@@ -1,0 +1,11 @@
+
+	java:S112)"FDefine and throw a dedicated exception instead of using a generic one.(§¤ºüøÿÿÿÿ8”†Çè1J$aca03780-1a8e-40d4-829c-d39280130302
+f
+java:S2259"DA "NullPointerException" could be thrown; "coupon" is nullable here.(ÚÚæşÿÿÿÿ8ŞôïËè1
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8ª†Çè1J$e587d026-76ee-4f36-96c4-4627865a20f4
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8İÍïËè1J$12f3a6fc-6772-44fa-a389-2d450e5233ff
+r	java:S106$"+Replace this use of System.out by a logger.(ö¹Ë¥şÿÿÿÿ8Éè1J$d62cdd2d-3257-48fc-93b1-ced1a97ca1d6
+‚
+java:S1128"?Remove this unused import 'jakarta.websocket.server.PathParam'.(ÇÄå¹8íìÄÊè1J$69b38d00-b042-456b-a39d-5a373aeb6d94

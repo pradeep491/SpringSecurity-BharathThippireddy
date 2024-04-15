@@ -1,0 +1,11 @@
+
+´
+ƒCustomAuthenticationProviderEx/src/main/java/com/test/CustomAuthenticationProviderEx/CustomAuthenticationProviderExApplication.java,1\3\13bb0109c77d7a4c6d9aad58c4a485b124d3bade
+V
+&CustomAuthenticationProviderEx/pom.xml,e\5\e5eb75504058fbab206d975b183e195f1f238db8
+™
+iCustomAuthenticationProviderEx/src/main/java/com/test/CustomAuthenticationProviderEx/HelloController.java,0\f\0f3029752b34352fba47c91947ccb323b3e48c5d
+š
+jCustomAuthenticationProviderEx/src/main/java/com/test/CustomAuthenticationProviderEx/MySecurityConfig.java,e\4\e4aa29e4c37142e1905d74c5d16172f6ed89714e
+¢
+rCustomAuthenticationProviderEx/src/main/java/com/test/CustomAuthenticationProviderEx/MyAuthenticationProvider.java,6\2\62a4907fcf48d82e90a6b6810a80497232c107f7

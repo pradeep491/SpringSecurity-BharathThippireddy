@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+D:\Workspace\SpringSecurityWorkspace\CouponServiceAuthThymeleafCustomLogin\.metadata\.plugins\org.eclipse.jdt.core
+341662388.index
+2470263520.index
+1865797976.index
