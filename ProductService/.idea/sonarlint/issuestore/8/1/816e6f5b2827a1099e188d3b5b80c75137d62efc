@@ -1,8 +1,5 @@
 
-‡	java:S112%"FDefine and throw a dedicated exception instead of using a generic one.(°‡ÎK8í°Ôç1J$67690abe-902d-420d-81da-979fc31df48f
-Œ
-java:S2259"DA "NullPointerException" could be thrown; "coupon" is nullable here.(ÚÚæşÿÿÿÿ8ú°Ôç1J$4f0a0ebb-2b62-47d3-81d9-3df6d5c4b69e
-…
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8û°Ôç1J$6b12baed-2391-4b9b-8ef2-77acfa77c79d
-…
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8û°Ôç1J$985761f3-2752-4368-aa45-804dc38ca5de
+‡	java:S1128"FDefine and throw a dedicated exception instead of using a generic one.(°‡ÎK8œè†œò1J$d4900ef5-9bce-4d68-8ea8-980e6b661d5b
+ƒ	java:S125("<This block of commented-out lines of code should be removed.(€ªªÿÿÿÿÿ8¬è†œò1J$aeda8465-eb84-4227-bde3-f4e4f7043984
+p
+java:S1068"-Remove this unused "webClient" private field.(àî²Ú8±è†œò1J$a5e7a74f-202e-4175-99aa-f772b06348ba
