@@ -9,8 +9,11 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/couponapi")
 public class CouponRestController {
 
-    @Autowired
-    CouponRepo repo;
+    private final CouponRepo repo;
+
+    public CouponRestController(CouponRepo repo) {
+        this.repo = repo;
+    }
 
     @PostMapping("/coupons")
     public Coupon create(@RequestBody Coupon coupon) {
