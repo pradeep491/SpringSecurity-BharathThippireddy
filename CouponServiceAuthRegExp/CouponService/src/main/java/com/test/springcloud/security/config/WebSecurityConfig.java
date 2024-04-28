@@ -18,7 +18,7 @@ public class WebSecurityConfig {
     @Bean
     SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
         http.httpBasic(Customizer.withDefaults());
-        http.authorizeHttpRequests(authorize -> authorize.requestMatchers(HttpMethod.GET, "/couponapi/coupons/{code:^[A-Z]*$}")
+        http.authorizeHttpRequests(authorize -> authorize.requestMatchers(HttpMethod.GET, "/couponapi/coupons/{code:^[A-Za-z0-9]*$}")
                 .hasAnyRole("USER", "ADMIN")
                 .requestMatchers(HttpMethod.POST, "couponapi/coupons")
                 .hasRole("ADMIN"));
