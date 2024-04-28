@@ -9,3 +9,5 @@ WProductService/src/main/java/com/test/springcloud/controller/ProductRestControl
 PProductService/src/main/java/com/test/springcloud/ProductServiceApplication.java,a\9\a9be456389bb12db525c3bd853b4fcedd749ba4d
 q
 AProductService/src/main/java/com/test/springcloud/dto/Coupon.java,6\5\65db12df65ad1160f32300f24cd2d22d3c3531a5
+F
+ProductService/pom.xml,5\d\5de21f3b6a86c5c5306bbe4c2df656208dc397ac
