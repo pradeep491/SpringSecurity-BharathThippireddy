@@ -8,19 +8,22 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 
+import java.util.List;
 import java.util.Optional;
 
 @RestController
 @RequestMapping("/productapi")
 public class ProductRestController {
-
-    @Autowired
-    ProductRepo repo;
-    @Autowired
-    private RestTemplate template;
+    private final ProductRepo repo;
+    private final RestTemplate template;
 
     @Value("${couponService.url}")
     private String couponServiceURL;
+
+    public ProductRestController(ProductRepo repo, RestTemplate template) {
+        this.repo = repo;
+        this.template = template;
+    }
 
     @PostMapping("/products")
     public Product create(@RequestBody Product product) {
@@ -36,5 +39,9 @@ public class ProductRestController {
         }else{
             throw new RuntimeException("Product not found with id-"+productId);
         }
+    }
+    @GetMapping("/product/getProducts")
+    public List<Product> getProducts(){
+        return repo.findAll();
     }
 }

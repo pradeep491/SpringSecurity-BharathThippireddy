@@ -5,12 +5,17 @@ import com.test.springcloud.repo.CouponRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 @RestController
 @RequestMapping("/couponapi")
 public class CouponRestController {
 
-    @Autowired
-    CouponRepo repo;
+    private final CouponRepo repo;
+
+    public CouponRestController(CouponRepo repo) {
+        this.repo = repo;
+    }
 
     @PostMapping("/coupons")
     public Coupon create(@RequestBody Coupon coupon) {
@@ -20,5 +25,9 @@ public class CouponRestController {
     @GetMapping("/coupons/{code}")
     public Coupon getCoupons(@PathVariable("code") String code) {
         return repo.findByCode(code);
+    }
+    @GetMapping("/coupons/getCoupons")
+    public List<Coupon> getAllCoupons() {
+        return repo.findAll();
     }
 }
