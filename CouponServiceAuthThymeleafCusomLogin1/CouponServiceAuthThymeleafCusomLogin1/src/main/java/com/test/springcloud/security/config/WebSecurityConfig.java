@@ -7,7 +7,6 @@ import org.springframework.http.HttpMethod;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.ProviderManager;
 import org.springframework.security.authentication.dao.DaoAuthenticationProvider;
-import org.springframework.security.config.Customizer;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
@@ -46,15 +45,25 @@ public class WebSecurityConfig {
     SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
         //http.formLogin(Customizer.withDefaults());
         //http.httpBasic(Customizer.withDefaults());
-        http.authorizeHttpRequests(authorize -> authorize.requestMatchers(HttpMethod.GET, "/couponapi/coupons/{code:^[A-Z]*$}", "/showGetCoupon", "/getCoupon")
-                .hasAnyRole("USER", "ADMIN")
-                .requestMatchers(HttpMethod.GET, "/showCreateCoupon", "/createCoupon", "/createResponse")
-                .hasAnyRole("ADMIN")
-                .requestMatchers(HttpMethod.POST, "/couponapi/coupons", "/saveCoupon")
-                .hasRole("ADMIN")
-                .requestMatchers(HttpMethod.POST, "/getCoupon")
-                .hasAnyRole("ADMIN", "USER")
-                .requestMatchers("/","login").permitAll());
+        http.authorizeHttpRequests(authorize -> {
+            try {
+                authorize.requestMatchers(HttpMethod.GET, "/couponapi/coupons/{code:^[A-Z]*$}", "/showGetCoupon", "/getCoupon")
+                        .hasAnyRole("USER", "ADMIN")
+                        .requestMatchers(HttpMethod.GET, "/showCreateCoupon", "/createCoupon", "/createResponse")
+                        .hasAnyRole("ADMIN")
+                        .requestMatchers(HttpMethod.POST, "/couponapi/coupons", "/saveCoupon")
+                        .hasRole("ADMIN")
+                        .requestMatchers(HttpMethod.POST, "/getCoupon")
+                        .hasAnyRole("ADMIN", "USER")
+                        .requestMatchers("/","login","/showReg","/registerUser").permitAll()
+                        //.requestMatchers("/", "login").permitAll();
+                        .and()
+                        .logout()
+                        .logoutSuccessUrl("/");
+            } catch (Exception e) {
+                throw new RuntimeException(e);
+            }
+        });
         http.securityContext(securityContext -> securityContext.requireExplicitSave(true));
         http.csrf(csrf -> csrf.disable());
         return http.build();

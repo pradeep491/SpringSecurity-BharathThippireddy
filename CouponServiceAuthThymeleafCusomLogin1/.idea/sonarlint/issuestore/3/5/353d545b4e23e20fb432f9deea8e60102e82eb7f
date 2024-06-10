@@ -1,11 +1,14 @@
 
+	java:S112@"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8‘ÿ¥ıÿ1J$c5104063-ea37-45fb-bbfe-999ef2d08927
 
-java:S11922"FDefine a constant instead of duplicating this literal "ADMIN" 4 times.(¹¥±ùÿÿÿÿÿ8ÔØŞÀê1J$5577638a-d5c8-4309-8363-82836aa5f12b
+java:S11923"FDefine a constant instead of duplicating this literal "ADMIN" 4 times.(¹¥±ùÿÿÿÿÿ8’ÿ¥ıÿ1J$b849aa6a-9014-4f78-8900-f1b4f48f0a50
 …
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8âØŞÀê1J$e54b314d-b370-47e0-889c-4a6d8f327eee
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8›ÿ¥ıÿ1J$d310cdd4-cf3f-4641-9931-2950dcf5a9b4
 š
-java:S3305"RInject this field value directly into "authManager", the only method that uses it.(Ä‹¹«úÿÿÿÿ8äØŞÀê1J$be0d69fd-7c2c-426a-9b79-fc3dbfca0818
-}	java:S125/"<This block of commented-out lines of code should be removed.(Ø‰³8ïØŞÀê1J$2884f028-5a16-40ad-a24d-cb5997221ab1
-“
-java:S1128
-"KRemove this unused import 'org.springframework.security.config.Customizer'.(Ïóœ¬ùÿÿÿÿ8óØŞÀê1J$ad7359ba-5a6d-4083-b502-af937bbf589c
+java:S3305"RInject this field value directly into "authManager", the only method that uses it.(Ä‹¹«úÿÿÿÿ8ÿ¥ıÿ1J$6242827c-6e44-41d2-899d-d63940acd524
+}	java:S125."<This block of commented-out lines of code should be removed.(Ø‰³8¦ÿ¥ıÿ1J$5ae65f43-cc4b-40f3-a5bb-5ef7ff1a5043
+ƒ	java:S125;"<This block of commented-out lines of code should be removed.(¤şœÄüÿÿÿÿ8¨ÿ¥ıÿ1J$dfbce64a-8a41-44e7-8737-f7ae630f3270
+
+java:S5738<"HRemove this call to a deprecated method, it has been marked for removal.(Åúßµûÿÿÿÿ8©ÿ¥ıÿ1J$242288dd-e34b-4beb-aa41-72afeecc05fa
+‹
+java:S5738="HRemove this call to a deprecated method, it has been marked for removal.(éå×¦8©ÿ¥ıÿ1J$28d380a2-0c1c-498a-b08a-28b8fdccee0b

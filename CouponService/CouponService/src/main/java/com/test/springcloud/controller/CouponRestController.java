@@ -2,7 +2,6 @@ package com.test.springcloud.controller;
 
 import com.test.springcloud.model.Coupon;
 import com.test.springcloud.repo.CouponRepo;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
