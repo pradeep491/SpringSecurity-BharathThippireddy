@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/MultipleMethodsEx.iml" filepath="$PROJECT_DIR$/.idea/MultipleMethodsEx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MultipleMethodsEx/MultipleMethodsEx.iml" filepath="$PROJECT_DIR$/MultipleMethodsEx/MultipleMethodsEx.iml" />
     </modules>
   </component>
 </project>

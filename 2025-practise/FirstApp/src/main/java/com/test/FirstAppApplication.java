@@ -4,9 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class FirstAppWithBasicAuthApplication {
+public class FirstAppApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(FirstAppWithBasicAuthApplication.class, args);
+		SpringApplication.run(FirstAppApplication.class, args);
 	}
+
 }

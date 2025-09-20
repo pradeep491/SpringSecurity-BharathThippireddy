@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/CustomAuthenticationProviderEx.iml" filepath="$PROJECT_DIR$/.idea/CustomAuthenticationProviderEx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CustomAuthenticationProviderEx/CustomAuthenticationProviderEx.iml" filepath="$PROJECT_DIR$/CustomAuthenticationProviderEx/CustomAuthenticationProviderEx.iml" />
     </modules>
   </component>
 </project>

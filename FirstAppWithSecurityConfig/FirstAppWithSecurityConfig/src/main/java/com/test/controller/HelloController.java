@@ -1,13 +1,12 @@
-package com.test;
+package com.test.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class HelloController {
-
     @GetMapping("/hello")
     public String hello() {
-        return "Hello Spring Security - Basic Auth...!";
+        return "Welcome SecurityConfig Override method()...!";
     }
 }

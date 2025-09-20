@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/FirstAppWithBasicAuth.iml" filepath="$PROJECT_DIR$/.idea/FirstAppWithBasicAuth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FirstAppWithBasicAuth/FirstAppWithBasicAuth.iml" filepath="$PROJECT_DIR$/FirstAppWithBasicAuth/FirstAppWithBasicAuth.iml" />
     </modules>
   </component>
 </project>

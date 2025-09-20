@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/CustomFilterEx.iml" filepath="$PROJECT_DIR$/.idea/CustomFilterEx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CustomFilterEx/CustomFilterEx.iml" filepath="$PROJECT_DIR$/CustomFilterEx/CustomFilterEx.iml" />
     </modules>
   </component>
 </project>

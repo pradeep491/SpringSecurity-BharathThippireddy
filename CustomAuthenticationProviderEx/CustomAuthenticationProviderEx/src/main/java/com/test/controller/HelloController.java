@@ -1,12 +1,13 @@
-package com.test.FirstAppWithSecurityConfig;
+package com.test.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class HelloController {
+
     @GetMapping("/hello")
     public String hello() {
-        return "Welcome SecurityConfig Override method()...!";
+        return "Spring security custom Authentication provider...!";
     }
 }

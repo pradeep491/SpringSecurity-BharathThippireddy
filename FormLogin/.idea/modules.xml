@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/FormLogin.iml" filepath="$PROJECT_DIR$/.idea/FormLogin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FormLogin/FormLogin.iml" filepath="$PROJECT_DIR$/FormLogin/FormLogin.iml" />
     </modules>
   </component>
 </project>
