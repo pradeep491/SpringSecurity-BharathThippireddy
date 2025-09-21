@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/CouponServiceAuthThymeleaf.iml" filepath="$PROJECT_DIR$/.idea/CouponServiceAuthThymeleaf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CouponServiceAuthThymeleaf/CouponServiceAuthThymeleaf.iml" filepath="$PROJECT_DIR$/CouponServiceAuthThymeleaf/CouponServiceAuthThymeleaf.iml" />
     </modules>
   </component>
 </project>

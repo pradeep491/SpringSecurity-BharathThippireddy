@@ -13,6 +13,11 @@ public class CouponController {
 
 	@Autowired
 	private CouponRepo repo;
+
+	/*@GetMapping("/")
+	public String index(){
+		return "index";
+	}*/
 	@GetMapping("/showCreateCoupon")
 	public String showCreateCoupon() {
 		return "createCoupon";
