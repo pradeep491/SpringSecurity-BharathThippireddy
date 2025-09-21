@@ -1,4 +1,4 @@
-package com.test.CustomFilterEx;
+package com.test.filter;
 
 import jakarta.servlet.*;
 

@@ -1,4 +1,4 @@
-package com.test;
+package com.test.authprovider;
 
 import org.springframework.security.authentication.AuthenticationProvider;
 import org.springframework.security.authentication.BadCredentialsException;

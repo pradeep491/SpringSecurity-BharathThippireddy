@@ -1,13 +1,13 @@
-package com.test.CustomFilterEx;
+package com.test;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CustomFilterExApplication {
+public class FormLoginApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CustomFilterExApplication.class, args);
+		SpringApplication.run(FormLoginApplication.class, args);
 	}
 
 }
