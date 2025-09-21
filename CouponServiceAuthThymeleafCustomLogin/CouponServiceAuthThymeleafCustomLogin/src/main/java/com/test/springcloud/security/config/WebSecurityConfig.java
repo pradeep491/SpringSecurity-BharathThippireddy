@@ -51,7 +51,7 @@ public class WebSecurityConfig {
                 .hasRole("ADMIN")
                 .requestMatchers(HttpMethod.POST, "/getCoupon")
                 .hasAnyRole("ADMIN", "USER")
-                .requestMatchers("/","/login").permitAll())
+                .requestMatchers("/","/login","/showReg","/registerUser").permitAll())
                 .logout(logout -> logout
                         .logoutSuccessUrl("/")
                         .deleteCookies("JSESSIONID")
