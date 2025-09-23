@@ -1,0 +1,11 @@
+
+
+java:S11922"FDefine a constant instead of duplicating this literal "ADMIN" 4 times.(¹¥±ùÿÿÿÿÿ8ÔØŞÀê1J$5577638a-d5c8-4309-8363-82836aa5f12b
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8âØŞÀê1J$e54b314d-b370-47e0-889c-4a6d8f327eee
+š
+java:S3305"RInject this field value directly into "authManager", the only method that uses it.(Ä‹¹«úÿÿÿÿ8äØŞÀê1J$be0d69fd-7c2c-426a-9b79-fc3dbfca0818
+}	java:S125/"<This block of commented-out lines of code should be removed.(Ø‰³8ïØŞÀê1J$2884f028-5a16-40ad-a24d-cb5997221ab1
+“
+java:S1128
+"KRemove this unused import 'org.springframework.security.config.Customizer'.(Ïóœ¬ùÿÿÿÿ8óØŞÀê1J$ad7359ba-5a6d-4083-b502-af937bbf589c
